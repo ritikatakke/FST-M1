@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+
+   <parameter name="username" value="admin">
+   </parameter>
+   <parameter name="password" value="password">
+   </parameter>
+    <test name="SuiteTests" >
+        <classes>
+           
+            <class name="TestActivity.Activity6"/>
+        </classes>
+    </test>
+</suite>
