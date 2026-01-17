@@ -52,9 +52,7 @@ public class WebProjectApp {
         }
     }
 
-    // ==============================
-    // 1️⃣ To-Do List Test
-    // ==============================
+    
     @Test(priority = 1)
     public void chromeTodoListTest() {
 
@@ -102,9 +100,7 @@ public class WebProjectApp {
         assertEquals(tasks.size(), 5);
     }
 
-    // ==============================
-    // 2️⃣ Login Form Test
-    // ==============================
+    
     @Test(priority = 2, dependsOnMethods = "chromeTodoListTest")
     public void chromeLoginFormTest() {
 
@@ -153,9 +149,7 @@ public class WebProjectApp {
         
     }
 
-    // ==============================
-    // 3️⃣ Popup Login Test
-    // ==============================
+   
     @Test(priority = 3, dependsOnMethods = "chromeLoginFormTest")
     public void chromePopupLoginTest() {
 
@@ -204,3 +198,4 @@ public class WebProjectApp {
         }
     }
 }
+
