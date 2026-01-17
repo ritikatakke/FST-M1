@@ -188,9 +188,7 @@ public class WebProjectApp {
     }
 
     
-    // ==============================
-    // TEARDOWN
-    // ==============================
+    
     @AfterClass
     public void tearDown() {
         if (driver != null) {
@@ -198,4 +196,5 @@ public class WebProjectApp {
         }
     }
 }
+
 
